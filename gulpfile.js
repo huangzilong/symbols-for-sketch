@@ -8,18 +8,18 @@ const path = require('path');
 
 /**
  * Font settings
- */
-const fontName = 'hUI-symbols'; // set name of your symbol font
+*/
+const fontName = 'wx-applet-symbols'; // set name of your symbol font
 const className = 'icon'; // set class name in your CSS
-const template = 'hui-style'; // or 'foundation-style' | 'fontawesome-style'
+const template = 'wx-applet-style'; // or 'foundation-style' | 'fontawesome-style'
 
-// 导出顺序按照 sketch里的icon name字母排序
+// 导出顺序按照 sketch 里的 icon name 字母排序
 const skethcFileName = path.resolve(
   __dirname,
-  'sketches/symbol-font-14px-latest.sketch'
+  'sketches/wx-applet-style.sketch'
 ); // or 'symbol-font-16px.sketch'
 
-const distFolder = path.resolve(__dirname, '../hUI-core/src/components/icon'); // dist path
+const distFolder = path.resolve(__dirname, './wx-applet-style/');
 
 /**
  * Recommended to get consistent builds when watching files
