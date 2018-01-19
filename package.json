@@ -24,6 +24,7 @@
   "license": "MIT",
   "devDependencies": {
     "browser-sync": "^2.18.2",
+    "fonteditor-core": "^1.0.2",
     "gulp": "^3.9.1",
     "gulp-consolidate": "^0.2.0",
     "gulp-iconfont": "^8.0.1",
